@@ -1,0 +1,18 @@
+PROGRAM bad IS
+
+  INSTRUCTION movetwice IS
+     move
+     move
+  END movetwice
+  
+  INSTRUCTION turntwice IS
+    turnright
+    turnright
+  END turntwice
+
+BEGIN
+  WHILE true DO
+    movetwice
+    turntwice
+  END WHILE
+END bad

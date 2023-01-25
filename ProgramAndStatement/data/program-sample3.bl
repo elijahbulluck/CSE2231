@@ -1,0 +1,13 @@
+PROGRAM samplethree IS
+
+  INSTRUCTION moveleft IS
+     move
+     turnleft
+  END moveleft
+  
+BEGIN
+  WHILE true DO
+    moveright
+    moveleft
+  END WHILE
+END samplethree

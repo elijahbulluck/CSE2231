@@ -1,0 +1,15 @@
+            WHILE next-is-empty DO
+                move
+            END WHILE
+        WHILE true DO
+            FindBugs           
+            IF next-is-enemy THEN
+                infect
+            ELSE
+                IF next-is-friend THEN
+                    turnleft 
+                ELSE
+                    turnright
+                END IF
+            END IF
+        END WHILE                          

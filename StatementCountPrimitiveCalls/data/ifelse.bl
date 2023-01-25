@@ -1,0 +1,8 @@
+move
+turnleft
+infect
+IF true THEN
+    turnleft
+ELSE
+    move
+  END IF

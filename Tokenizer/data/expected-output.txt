@@ -1,0 +1,46 @@
+KEYWORD   : <PROGRAM>
+IDENTIFIER: <SampleProgram>
+KEYWORD   : <IS>
+KEYWORD   : <INSTRUCTION>
+IDENTIFIER: <FindObstacle>
+KEYWORD   : <IS>
+KEYWORD   : <WHILE>
+CONDITION : <next-is-empty>
+KEYWORD   : <DO>
+IDENTIFIER: <move>
+KEYWORD   : <END>
+KEYWORD   : <WHILE>
+KEYWORD   : <END>
+IDENTIFIER: <FindObstacle>
+KEYWORD   : <INSTRUCTION>
+IDENTIFIER: <TurnAround>
+KEYWORD   : <IS>
+IDENTIFIER: <turnright>
+IDENTIFIER: <turnright>
+KEYWORD   : <END>
+IDENTIFIER: <TurnAround>
+KEYWORD   : <BEGIN>
+KEYWORD   : <WHILE>
+CONDITION : <true>
+KEYWORD   : <DO>
+IDENTIFIER: <FindObstacle>
+KEYWORD   : <IF>
+CONDITION : <next-is-enemy>
+KEYWORD   : <THEN>
+IDENTIFIER: <infect>
+KEYWORD   : <ELSE>
+KEYWORD   : <IF>
+CONDITION : <next-is-wall>
+KEYWORD   : <THEN>
+IDENTIFIER: <turnleft>
+KEYWORD   : <ELSE>
+IDENTIFIER: <TurnAround>
+KEYWORD   : <END>
+KEYWORD   : <IF>
+KEYWORD   : <END>
+KEYWORD   : <IF>
+KEYWORD   : <END>
+KEYWORD   : <WHILE>
+KEYWORD   : <END>
+IDENTIFIER: <SampleProgram>
+ERROR     : <### END OF INPUT ###>

@@ -1,0 +1,4 @@
+  WHILE true DO
+    turnleft
+    move
+  END WHILE

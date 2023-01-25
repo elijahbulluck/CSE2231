@@ -1,0 +1,6 @@
+  skip
+  IF random THEN
+  skip
+  turnleft
+  move
+  END IF
